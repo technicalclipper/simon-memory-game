@@ -64,7 +64,7 @@ function animation(tag){
 }
 
 function playSound(color){
-    var song=new Audio("sounds/"+color+".mp3");
+    var song=new Audio(color+".mp3");
     song.play();
 }
 
