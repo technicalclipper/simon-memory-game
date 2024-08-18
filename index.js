@@ -12,6 +12,8 @@ $(document).on("keydown",function(){
     gamestarted=1;
 }
 })
+
+
 $(".btn").on("click",function(){
     var userChosenColour = $(this).attr("id");
     userseq.push(userChosenColour);
