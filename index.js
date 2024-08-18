@@ -82,6 +82,7 @@ function playSound(color){
 function gameover(){
     $("#level-title").text("Press any key to start");
     seq=[];
+    userseq=[];
     lvl=0;
     gamestarted=0;
 }
