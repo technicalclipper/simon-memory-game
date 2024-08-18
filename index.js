@@ -13,6 +13,15 @@ $(document).on("keydown",function(){
 }
 })
 
+$(".startbutton").on("click",function(){
+    
+    if(gamestarted==0){
+    sequence();
+    gamestarted=1;
+}
+})
+
+
 
 $(".btn").on("click",function(){
     var userChosenColour = $(this).attr("id");
